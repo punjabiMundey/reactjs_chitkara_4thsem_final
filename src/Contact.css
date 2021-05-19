@@ -1,0 +1,58 @@
+/*.photo{
+	background-image: url("https://c1.wallpaperflare.com/preview/501/818/436/photography-gear-equipment-camera.jpg") !important;
+}*/
+
+.contact
+{
+	background-color: black;
+	border:0px solid black;
+	border-radius: 70px;
+	background: black;
+	color: #3498db;
+	font-family: 'Itim', cursive;
+}
+
+.input
+{
+	border: 3px solid gray;
+}
+
+.formdetails
+{
+	font-weight: bold;
+}
+
+.social_media
+{
+
+/*margin-left:50%;*/
+margin-top: 50px;
+font-size: 150%;
+text-align: center;
+}
+
+.icons
+{
+	margin-right:20px;
+}
+.instagram
+{
+	color: #eb0735;
+
+}
+
+.linkedin
+{
+	color: #07bdeb;
+}
+
+.facebook
+{
+	color: #042659;
+
+}
+
+.twitter
+{
+	color: #1068eb;
+}
