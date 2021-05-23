@@ -21,12 +21,12 @@ const Service=()=>{
 			<div className="col-10 mx-auto">
 			<div className="row gy-5">
 			
-			<Card imgsrc="https://www.photorachna.com/wp-content/uploads/2019/07/Jodhpur-2.jpg" type="PRE-WEDDING SHOOT"/>
-			<Card imgsrc="http://www.priyagoswami.com/wp-content/uploads/2015/01/Baby-Photographer-in-Delhi.jpg" type="BABY SHOOT"/>
-			<Card imgsrc="https://images.picxy.com/cache/2020/7/9/45e5b293b3559c940e0a79941d200b03.jpg" type="MATERNITY SHOOT"/>
-			<Card imgsrc="https://eventila.spyne.ai/photos/event-planner/null/spyne/1536769630868/logo_Wo7Z510IZX." type="PRODUCT SHOOT"/>
-			<Card imgsrc="https://corp.kaltura.com/wp-content/uploads/2017/05/Basics-of-Filmmaking-1024x446.png" type="FILM MAKING"/>
-			<Card imgsrc="https://nofilmschool.com/sites/default/files/styles/article_wide/public/gimbal.jpg?itok=y2PUXCpT" type="ADVERTISEMENT SHOOT"/>
+			<Card imgsrc="https://www.photorachna.com/wp-content/uploads/2019/07/Jodhpur-2.jpg" type="PRE-WEDDING SHOOT"  info="Make Your Pre-Wedding Shoot An Adorable Moment With The World Class Photographers and Cinematographers 🎥"/>
+			<Card imgsrc="http://www.priyagoswami.com/wp-content/uploads/2015/01/Baby-Photographer-in-Delhi.jpg" type="BABY SHOOT"   info="Make Your Baby-Shoot Shoot An Adorable Moment With The World Class Photographers and Cinematographers 🎥"/>
+			<Card imgsrc="https://images.picxy.com/cache/2020/7/9/45e5b293b3559c940e0a79941d200b03.jpg" type ="MATERNITY SHOOT" info="Make Your Maternity Shoot An Adorable Moment With The World Class Photographers and Cinematographers 🎥"/>
+			<Card imgsrc="https://eventila.spyne.ai/photos/event-planner/null/spyne/1536769630868/logo_Wo7Z510IZX." type="PRODUCT SHOOT" info="Make Your Product-Shoot  An Adorable Moment With The World Class Photographers and Cinematographs 🎥"/>
+			<Card imgsrc="https://corp.kaltura.com/wp-content/uploads/2017/05/Basics-of-Filmmaking-1024x446.png" type="FILM MAKING" info="Make Your Film Shoot An Adorable Moment With The World Class Photographers and Cinematographs 🎥"/>
+			<Card imgsrc="https://nofilmschool.com/sites/default/files/styles/article_wide/public/gimbal.jpg?itok=y2PUXCpT" type="ADVERTISEMENT SHOOT" info="Make Your Advertisement Shoot An Adorable Moment With The World Class Photographers and Cinematographs 🎥"/>
 
 
 			</div>

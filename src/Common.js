@@ -8,16 +8,16 @@ const Common=(props)=>{
 	return (
 
 		<>
-		<section id="header"  className="d-flex align-items-center mb-5">
+		<section id="header"  className="d-flex align-items-center">
 		<div className="container-fluid nav_bg">
-		<div className="row">
+		<div className="row ">
 		<div className="col-10 mx-auto">
 		<div className="row">
 		<div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
 
 		
 
-		<h1 cl><Typical steps={['Capture Your ' , 300 , 'Capture Your Moments With ' , 1000 ]} loop={Infinity} wrapper="p" className="hd" /> <strong className="brand-name"> Photo Junction </strong></h1>
+		<h1><Typical steps={['Capture Your ' , 300 , 'Capture Your Moments With ' , 1000 ]} loop={Infinity}   className="hd" /></h1> <h1><strong className="brand-name"> Cinemato_Nagar </strong></h1>
 		<h2 className="my-3">
 		We are the team of talented Photographers and Cinematographers 🎥 !
 		</h2>
@@ -29,7 +29,7 @@ const Common=(props)=>{
 
 		</div>
 
-		<div className="col-lg-6 order-1 order-lg-2">
+		<div className=" mrgn col-md-6 order-1 order-md-2">
 
 		<img src={props.imgsrc} className="img-fluid animated" alt="home img"/>
 

@@ -1,59 +1,44 @@
-import React from 'react';
-import './index.css';
-import './Navbar.css';
+import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+  import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap';
 
-import {NavLink} from 'react-router-dom';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+class Navb extends Component{
+    constructor(props) {
+        super(props);
 
-const Navbar = () => {
+    }
 
-	return (
+    render() {
+        return (
 
-		<>
-		<div className="container-fluid nav_bg">
-		<div className="row">
 
-		<div className="col-10 mx-auto">
+           <div className="container-fluid nav_bg">
+    <div className="row">
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-    <NavLink  className="navbar-brand" to="/">Photo Junction 📷</NavLink>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link  active" aria-current="page"    to="/">Home</NavLink>
-        </li>
+    <div className="col-10 mx-auto">
 
-         <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link "    to="/service">Service</NavLink>
-        </li>
-         <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link "   to="/about">About</NavLink>
-        </li>
-         <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link "  to="/contact">Contact</NavLink>
-        </li> 
-      </ul>
+            <Navbar bg="dark" variant="light" expand="lg" sticky="top">
+                                <Nav.Link className="navbar-brand"  href="/">Cinemato_Nagar 📷</Nav.Link>
+                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                <Navbar.Collapse id="basic-navbar-nav">
+                                    <Nav className="ml-auto" >
+                                    <Nav.Link  className="nav-link  active linkhover" aria-current="page"  href="/">Home</Nav.Link>
+                                    <Nav.Link  className="nav-link  active linkhover" aria-current="page"  href="/service">Service</Nav.Link>
+                                    <Nav.Link  className="nav-link  active linkhover" aria-current="page"  href="/about">About</Nav.Link>
+                                    <Nav.Link  className="nav-link  active linkhover" aria-current="page"  href="/contact">Contact</Nav.Link>
+                                    </Nav>
+                                </Navbar.Collapse>
+                            </Navbar>
+
+
+    
     </div>
-  </div>
-</nav>
+    </div>
 
-		</div>
-		</div>
+    </div>
 
-		</div>
+        );
+    }
 
-		
-
-		</>
-
-
-
-		);
-};
-
-export default Navbar;
+}
+export default Navb;

@@ -75,25 +75,25 @@ const Contact = ( ) => {
 <div className="social_media ">
 <a href={`https://www.linkedin.com/in/jatin-kindra-5b3054193/`}
   className="linkedin social icons">
-  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+  <FontAwesomeIcon icon={faLinkedin} size="2x"  className="iconhover" />
 </a>
 
 
 
 <a href={`https://www.facebook.com/profile.php?id=100023921333372`}
   className="facebook social icons">
-  <FontAwesomeIcon icon={faFacebook} size="2x" />
+  <FontAwesomeIcon icon={faFacebook} size="2x" className="iconhover" />
 </a>
 
 
 <a href={`https://twitter.com/Anmol0beroi?s=09`}
  className="twitter social icons">
-  <FontAwesomeIcon icon={faTwitter} size="2x" />
+  <FontAwesomeIcon icon={faTwitter} size="2x" className="iconhover" />
 </a>
 
 <a href={`https://instagram.com/aryan_00047?utm_medium=copy_link`}
   className="instagram social icons">
-  <FontAwesomeIcon icon={faInstagram} size="2x" />
+  <FontAwesomeIcon icon={faInstagram} size="2x" className="iconhover" />
 </a>
 </div>
         </>

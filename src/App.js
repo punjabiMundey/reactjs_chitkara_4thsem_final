@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Home';
 
-
+import "../node_modules/jquery/dist/jquery.min.js";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 
@@ -9,7 +9,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import About from './About';
 import Contact from './Contact';
 import Service from './Service';
-import Navbar from './Navbar';
+import Navb from './Navbar';
 import './Navbar.css';
 import './index.css';
 
@@ -23,7 +23,7 @@ import './App.css';
 const App=()=>{
   return (
     <>
-    <Navbar/>
+    <Navb/>
     <Switch>
       <Route exact path="/" component={Home}    />
       <Route exact path="/about" component={About}    />

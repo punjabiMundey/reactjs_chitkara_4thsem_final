@@ -14,10 +14,46 @@
 	/*text-align: center;*/
 /*}*/
 
+
+
+	@media screen and (min-width: 0px) and (max-width: 320px){
+
+		.mrgn{
+			margin-top:100% !important;
+		}
+	}
+
+		@media screen and (min-width: 330px) and (max-width: 765px){
+
+		.mrgn{
+			margin-top:50%;
+		}
+	}
+
+
+		@media screen and (min-width: 770px) and (max-width: 950px){
+
+		.mrgn{
+			margin-top:15%;
+		}
+	}
+
 .hd
 {
 	margin-top: 0;
 }
+
+
+/*@media screen and (max-width: 325px)
+{
+	.nav_bg
+	{
+		margin-bottom: 100000px !important;
+	}
+}*/
+
+
+
 
 .team
 {
@@ -25,6 +61,7 @@
 	border:0px solid black;
 	border-radius: 70px;
 	background: black;
+	font-size: 100%;
 }
 .teamname
 {
@@ -89,6 +126,39 @@
 }
 
 
+.cardhover
+{
+	font-size: 1.2rem;
+	
+}
+
+
+
+
+.cardhover:hover
+{
+	font-weight: bold;
+
+
+}
+
+
+.iconhover:hover
+{
+    transition: transform 1.5s;
+	transform: rotate(360deg);
+}
+
+
+
+.imgservice:hover
+{
+	transition:  transform 1.5s ;
+	transform: rotate(360deg);
+}
+
+
+
 
 .navbar-brand
 {
@@ -96,12 +166,26 @@
 	color: #296378 !important;
 	font-weight: bold;
 	/*font-family: 'Lobster', cursive;*/
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.navbar-brand:hover
+{
+	font-size:3.2rem !important;
 }
 
 .navbar a
 {
 	font-size:1.3rem;
 	text-transform:capitalize;
+	font-weight: bold;
+
+}
+
+.navbar a:hover
+{
+	font-size: 1.8rem;
 }
 
 .menu_active{
